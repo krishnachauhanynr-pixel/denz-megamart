@@ -1,0 +1,6 @@
+{
+  "name": "Denz MegaMart",
+  "description": "An e-commerce website with categorized products and secure mock payment gateway.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
