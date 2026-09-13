@@ -146,7 +146,7 @@ export function CheckoutView({ onBackToHome }: CheckoutViewProps) {
                   <div className="bg-white p-4 rounded-xl shadow-sm border border-neutral-200 mb-6 relative w-56 h-56 flex items-center justify-center overflow-hidden">
                     {!imageError ? (
                       <img 
-                        src="/image.png"
+                        src="/payment-qr.svg"
                         alt="UPI QR Code Scanner" 
                         className="w-full h-full object-contain rounded-md"
                         onError={() => setImageError(true)}
@@ -155,7 +155,7 @@ export function CheckoutView({ onBackToHome }: CheckoutViewProps) {
                       <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4 bg-neutral-100 text-neutral-500 border-2 border-dashed border-neutral-300 rounded-xl">
                         <Upload className="h-8 w-8 mb-2 text-neutral-400" />
                         <p className="text-xs font-medium">Image Not Found</p>
-                        <p className="text-[10px] mt-1">Please drag your QR code into the <strong className="text-neutral-900">public</strong> folder and name it <strong className="text-neutral-900">image.png</strong></p>
+                        <p className="text-[10px] mt-1">Please add a QR image to the <strong className="text-neutral-900">public</strong> folder.</p>
                       </div>
                     )}
                   </div>
